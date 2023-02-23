@@ -12,62 +12,108 @@
 </head>
 <body>
   <header>
-    <span>logo</span>
+    <span class="header__logo"></span>
 
-    <nav>
-      <div>
+    <nav class="header__navbar">
+      <div class="navbar__list_container navbar__list_container--inactive">
         <ul>
           <li>About</li>
           <li>Services</li>
           <li>Projects</li>
-          <li>Contact</li>
+          <li class="contact__button">CONTACT</li>
         </ul>
       </div>
-      <button>burger</button>
+      <button class="navbar__button"></button>
     </nav>
   </header>
 
   <main>
-    <section>
+    <section class="main__frontpage">
       <div>
         <h1>WE ARE CREATIVES</h1>
-        <span>arrow</span>
+        <span></span>
       </div>
     </section>
-    <section>
-      <div>
+
+    <section class="main__services">
+      <div class="services__promises">
         <h2>Transform your brand</h2>
         <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-        <a href="#">LEARN MORE<span>line</span></a>
+        <a href="#">LEARN MORE<span></span></a>
       </div>
-      <div>
-        egg background
-      </div>
-      <div>
+      <div class="services__egg_background"></div>
+      <div class="services__promises">
         <h2>Stand out to the right audience</h2>
         <p>Using collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.</p>
-        <a href="#">LEARN MORE<span>line</span></a>
+        <a href="#">LEARN MORE<span class="promises__stand_learnmore"></span></a>
       </div>
-      <div>
-        pink glass background
-      </div>
-      <div>
+      <div class="services__pink_glass_background"></div>
+      <div class="services__graphic_design_square">
         <h2>Graphic Design</h2>
         <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
       </div>
-      <div>
+      <div class="services__photography_square">
         <h2>Photography</h2>
         <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
       </div>
     </section>
-    <section>
-      
+
+    <section class="main__testimonials">
+      <div class="testimonials__wrapper">
+        <h3>CLIENT TESTIMONIALS</h3>
+        <div class="testimonials__testimonial_container">
+          <span class="testimonials__profile_picture emily__pfp"></span>
+          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and dealines were always hit.</p>
+          <div>
+            <span class="testimonials__name">Emily R.</span>
+            <span class="testimonials__career">Marketing Director</span>
+          </div>
+        </div>
+        <div class="testimonials__testimonial_container">
+          <span class="testimonials__profile_picture thomas__pfp"></span>
+          <p>Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.</p>
+          <div>
+            <span class="testimonials__name">Thomas S.</span>
+            <span class="testimonials__career">Chief Operating Officer</span>
+          </div>
+        </div>
+        <div class="testimonials__testimonial_container">
+          <span class="testimonials__profile_picture jennie__pfp"></span>
+          <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <div>
+            <span class="testimonials__name">Jennie F.</span>
+            <span class="testimonials__career">Business Owner</span>
+          </div>
+        </div>
+      </div>
     </section>
-    <section></section>
+
+    <section class="main__images">
+      <div class="images__milk_bottles"></div>
+      <div class="images__half_orange"></div>
+      <div class="images__sorbet"></div>
+      <div class="images__cubes"></div>
+    </section>
   </main>
 
   <footer>
+    <div class="footer__links">
+      <span class="footer__title"></span>
+      <div class="links__wrapper">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+      </div>
+    </div>
 
+    <div class="footer__social_media_wrapper">
+      <a href="#" class="footer__facebook" aria-label="facebook"></a>
+      <a href="#" class="footer__instagram" aria-label="instagram"></a>
+      <a href="#" class="footer__twitter" aria-label="twitter"></a>
+      <a href="#" class="footer__pinterest" aria-label="pinterest"></a>
+    </div>
   </footer>
+
+  <script src="./index.js"></script>
 </body>
 </html>
