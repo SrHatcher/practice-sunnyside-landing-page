@@ -233,6 +233,7 @@ main{
     background-color: var(--soft-yellow);
     border-radius: 0.5rem;
     z-index: -1;
+    transition: all ease-in 0.1s;
 }
 .promises__stand_learnmore{
     background-color: var(--very-soft-red) !important;
@@ -463,3 +464,27 @@ footer{
     background-position: center;
 }
 
+@media (hover:hover){
+    .services__promises a:hover span{
+        background-color:  var(--yellow);
+    }
+
+    .services__promises a:hover .promises__stand_learnmore{
+        background-color: var(--soft-red) !important;
+    }
+    .links__wrapper a:hover{
+        color: white;
+    }
+    .footer__facebook:hover{
+        background-image: url('../images/icon-facebook-white.svg');
+    }
+    .footer__instagram:hover{
+        background-image: url('../images/icon-instagram-white.svg');
+    }
+    .footer__twitter:hover{
+        background-image: url('../images/icon-twitter-white.svg');
+    }
+    .footer__pinterest:hover{
+        background-image: url('../images/icon-pinterest-white.svg');
+    }
+}
